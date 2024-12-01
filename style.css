@@ -73,7 +73,7 @@ a {
 }
 
 .blue-card:hover {
-    box-shadow: 0 0 20px 5px rgba(173, 216, 230, 0.8);
+    box-shadow: 0 0 20px 5px rgba(173, 230, 179, 0.8);
 }
 
 .card:hover .card-text {
@@ -85,5 +85,5 @@ a {
 }
 
 .blue-card {
-    background-color: lightblue;
+    background-color: rgb(173, 230, 192);
 }

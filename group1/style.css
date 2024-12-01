@@ -1,0 +1,70 @@
+body, html {
+    /* width: 100%; */
+    width: 3900px; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    overflow-y: hidden;
+    overflow-x: visible;
+}
+
+/* 按钮样式 */
+#shuffle-btn {
+    position: fixed;
+    left:50vw;
+    top:5vw;
+    transform: translate(-50%,-50%);
+    padding: 10px 20px;
+    background-color: #5c6bc000;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#shuffle-btn:hover {
+    background-color: pink;
+}
+
+/* 卡牌容器 */
+.card-container {
+    /* background-color: aliceblue; */
+    position: relative;  /* 启用相对定位 */
+    width: 3760px;  /* 容器宽度为100% */
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  /* 使卡牌从左向右排列 */
+    gap: 20px;  /* 设置卡牌之间的间隔 */
+    
+}
+
+/* 卡牌样式 */
+.card {
+    width: 150px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1) 10px,
+        transparent 10px,
+        transparent 20px
+    );
+    border: 2px solid white;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background-color: pink;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 182, 193, 0.8);
+}

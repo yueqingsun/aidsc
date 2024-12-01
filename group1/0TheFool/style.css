@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    font-family: "lato", sans-serif;
+    margin: 50px;
+}
+.cardsec{
+    position:relative;
+    left:50%;
+    transform: translate(-50%,0%);
+    width:auto;
+    height:auto;
+    /* background-color: aqua; */
+}
+.card{
+    width:400px;
+    height:600px;
+    background-color: blue;
+    border-radius: 40px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0%);
+}
+.cardname{
+    width:auto;
+    height:auto;
+    position: relative;
+    text-align: center;
+    line-height:40px;
+    color:white
+}
+h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.zhengni{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.meaningsec{
+    width: 800px;
+    height:auto;
+    /* padding: 50px; */
+    position: relative;
+    top:80px;
+    /* background-color: aquamarine; */
+    left:50%;
+    transform: translate(-50%,0%);
+    color: white;
+}
+
+.info{
+    /* background-color: aqua; */
+    margin-top:50px;
+}
+
+.h3title{
+    display: inline-block;
+    font-size:20px;
+    text-transform: uppercase;
+    /* background-color: brown; */
+    border: 2px solid white;
+    border-radius: 50px;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.text{
+    display: inline-block;
+    /* background-color: yellowgreen; */
+    position: relative;
+    top:10px;
+}
