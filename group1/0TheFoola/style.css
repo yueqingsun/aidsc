@@ -9,6 +9,7 @@ body{
     transform: translate(-50%,0%);
     width:auto;
     height:auto;
+    padding-bottom:15px;
     /* background-color: aqua; */
 }
 .card{
@@ -42,14 +43,14 @@ h2{
     font-size: 32px;
     font-weight: 100;
     font-style: italic;
+    text-transform: uppercase;
 }
 
-.meaningsec{
+.sec{
     width: 800px;
     height:auto;
-    /* padding: 50px; */
     position: relative;
-    top:80px;
+    margin-bottom: 80px;
     /* background-color: aquamarine; */
     left:50%;
     transform: translate(-50%,0%);
