@@ -73,6 +73,11 @@ h2{
     padding-right:12px;
 }
 
+.h3title:hover{
+    color:pink;
+    border: 2px solid pink;
+}
+
 .text{
     display: inline-block;
     /* background-color: yellowgreen; */
