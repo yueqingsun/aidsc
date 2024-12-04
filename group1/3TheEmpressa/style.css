@@ -15,8 +15,10 @@ body{
 .card{
     width:400px;
     height:600px;
-    background-color: blue;
-    border-radius: 40px;
+    background-image: url('3TheEmpressa.jpg'); /* 替换为你的图片路径 */
+    background-size: cover; /* 确保图片覆盖整个区域 */
+    background-position: center;
+    border-radius: 20px;
     position: relative;
     left:50%;
     transform: translate(-50%,0%);

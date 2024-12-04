@@ -8,21 +8,47 @@ body, html {
     background-color: #000000;
     overflow-y: hidden;
     overflow-x: visible;
+    font-family: "lato", sans-serif;
+}
+
+.headbtntext {
+    position: fixed;
+    left: 50vw;
+    top: 5vw;
+    /* background-color: wheat; */
+    transform: translate(-50%, 0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* 让文字居中 */
+    width: auto; /* 根据内容宽度自动调整 */
+}
+
+.headtext {
+    color: aliceblue;
+    font-size: 18px;
+    /* background-color: aqua; */
+    margin: 30px; /* 给文字和按钮之间添加间距 */
+}
+
+.btn {
+    display: flex;
+    justify-content: center; /* 确保按钮内容水平居中 */
+    align-items: center; /* 确保按钮内容垂直居中 */
+    width: 500px;
+    /* background-color: aquamarine; */
 }
 
 /* 按钮样式 */
 #shuffle-btn {
-    position: fixed;
-    left:50vw;
-    top:5vw;
-    transform: translate(-50%,-50%);
     padding: 10px 20px;
     background-color: #5c6bc000;
     border: 2px solid white;
     color: white;
     border-radius: 8px;
-    font-size: 1.5rem;
-    cursor: pointer;
+    font-size: 28px;
+    cursor: pointer;    
 }
 
 #shuffle-btn:hover {
@@ -67,4 +93,5 @@ body, html {
 
 .card:hover {
     box-shadow: 0 0 20px 5px rgba(255, 182, 193, 0.8);
+    cursor: pointer;
 }
